@@ -8,10 +8,10 @@ export default function TodoList({todos, setTodo  }: {todos: CTodo[], setTodo: (
    
   function addTodo() {
     if (inputRef.current) {
-      let text = inputRef.current.value;
+      const text = inputRef.current.value;
       inputRef.current.value = "";
 
-      let todo = new CTodo(text, false, 0);
+      const todo = new CTodo(text, false, 0);
       setTodo(todo);
     
     }

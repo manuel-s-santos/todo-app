@@ -1,7 +1,7 @@
 
 
 'use client'
-import { useCallback, useState } from "react";
+import { useState } from "react";
 import TodoList from "./_components/TodoList";
 import { CTodo } from "./_lib/types";
 
